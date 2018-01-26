@@ -25,7 +25,7 @@ else:
 # with 2 skips the fcn8s network.
 # please note that here we train all at once the three networks rather than in stages.
 NUM_SKIPS = 2
-EPOCHS = 50
+EPOCHS = 5
 BATCH_SIZE = 10
 
 def load_vgg(sess, vgg_path):

@@ -1,7 +1,11 @@
 # Semantic Segmentation
 ### Introduction
 In this project, we label the pixels of a road in images using a Fully Convolutional Network (FCN) that replicates 
-the fcn8s network shown in [this reference](https://drive.google.com/file/d/1fKlwQe2D458cDo00A5TEnUImA6CJewSu/view?usp=sharing). 
+the fcn8s network shown in [this reference](https://drive.google.com/file/d/1fKlwQe2D458cDo00A5TEnUImA6CJewSu/view?usp=sharing). The reference is anotated to highlight the main points of the paper that lead to the implementation shown in main.py. Comments around the structure of the network link to this anotated pdf in the main.py.  
+
+The results are shown in the runs directory. Few results are shown here:
+
+![road segmentation](./runs/animated.gif)
 
 ### Setup
 ##### Frameworks and Packages

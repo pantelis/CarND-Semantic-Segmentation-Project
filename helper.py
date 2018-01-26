@@ -11,7 +11,6 @@ from glob import glob
 from urllib.request import urlretrieve
 from tqdm import tqdm
 
-
 class DLProgress(tqdm):
     last_block = 0
 
